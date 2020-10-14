@@ -9,7 +9,8 @@
 
 
 # submit job on JHPCE cluster
-# qsub -pe local 8 -l mem_free=10G,h_vmem=11G,h_fsize=100G salmon_index.sh
+# qsub -V -cwd -pe local 8 -l mem_free=2G,h_vmem=3G,h_fsize=100G salmon_index.sh
+
 
 # note: requires loading gcc and libraries, and local installation of salmon
 module load gcc/9.1.0
