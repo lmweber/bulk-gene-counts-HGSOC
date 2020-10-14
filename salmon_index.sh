@@ -25,7 +25,7 @@ cd index
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_35/gencode.v35.transcripts.fa.gz
 
 # create transcriptome index
-# runtime: ~5 min using 8 cores
+# runtime: ~5 min with 8 cores
 salmon index -t gencode.v35.transcripts.fa.gz -i gencode.v35.transcripts_index --gencode -p 8
 
 cd $CWD

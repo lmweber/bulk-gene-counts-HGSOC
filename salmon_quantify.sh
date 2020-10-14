@@ -21,7 +21,7 @@ salmon --version
 
 # quantify RNA-seq reads for each sample
 # note: could simplify using for loop when we have more samples; see https://combine-lab.github.io/salmon/getting_started/
-# runtime: 
+# runtime: ~15 min per sample with 8 cores
 
 dir='../data/HGSOC/17667R/Fastq'
 
