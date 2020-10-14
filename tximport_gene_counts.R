@@ -17,9 +17,10 @@ library(readr)
 # locate output files from Salmon
 dir <- file.path("..", "quants")
 samples <- c("17667X1", "17667X2", "17667X3")
-files <- file.path(dir, paste0(samples, "_quant", "quant.sf"))
+files <- file.path(dir, paste0(samples, "_quant"), "quant.sf")
 
 files
+
 
 # create table mapping transcript IDs to gene IDs
 # see tximport vignette
