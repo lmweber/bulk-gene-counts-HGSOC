@@ -5,6 +5,7 @@
 
 # run in interactive session on JHPCE cluster
 # module load conda_R/4.0
+# R
 
 
 library(tximport)
