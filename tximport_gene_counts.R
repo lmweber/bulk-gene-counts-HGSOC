@@ -27,6 +27,11 @@ files
 txdb <- TxDb.Hsapiens.UCSC.hg38.knownGene
 k <- keys(txdb, keytype = "TXNAME")
 tx2gene <- select(txdb, k, "GENEID", "TXNAME")
+dim(tx2gene)
+
+# remove NAs (transcript IDs with missing gene IDs)
+tx2gene <- na.omit(tx2gene)
+dim(tx2gene)
 
 head(tx2gene)
 
