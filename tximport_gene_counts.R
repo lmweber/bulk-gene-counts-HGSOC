@@ -45,5 +45,5 @@ head(txi$counts)
 
 # save output object
 dir.create("../tximport")
-save(txi, file = "../tximport/tximport_counts_17667X1-3.RData")
+save(txi, file = "../tximport/tximport_counts_17667XX.RData")
 
