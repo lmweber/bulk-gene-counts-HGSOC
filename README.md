@@ -1,4 +1,4 @@
-# bulk_gene_counts_HGSOC
+# bulk-gene-counts-HGSOC
 
 Scripts to process bulk RNA-seq samples in HGSOC project.
 
