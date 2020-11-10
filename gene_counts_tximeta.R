@@ -3,9 +3,6 @@
 # Lukas Weber, Nov 2020
 ####################################################################
 
-# run on laptop
-# running on JHPCE cluster gives error (in 'download.file' when running 'tximeta')
-
 library(tximeta)
 library(SummarizedExperiment)
 
