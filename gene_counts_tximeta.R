@@ -37,5 +37,5 @@ rowRanges(gse)
 
 # save object
 dir.create("../tximeta")
-save(gse, file = "../tximeta/gene_counts_17667XX.RData")
+save(gse, file = "../tximeta/gene_counts_17667X1-3.RData")
 
