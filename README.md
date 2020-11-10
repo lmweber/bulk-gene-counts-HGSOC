@@ -12,9 +12,9 @@ Scripts to run in order are:
 
 Note that bulk and single-cell RNA-seq sample names in this dataset are in a different order:
 
-bulk sample name | single-cell sample name
-------------------------------------------
-17667X1          | 16030X3
-17667X2          | 16030X2
-17667X3          | 16030X4
+| bulk sample name | single-cell sample name |
+| ---------------- | ----------------------- |
+| 17667X1          | 16030X3                 |
+| 17667X2          | 16030X2                 |
+| 17667X3          | 16030X4                 |
 
